@@ -74,6 +74,7 @@ function ProjectCard({ project, onDelete, showDelete = false, showEdit = false }
           <button
             className="delete-btn small-btn"
             onClick={() => onDelete && onDelete(project?._id)}
+            
           >
             🗑️ Delete
           </button>
